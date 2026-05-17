@@ -9,6 +9,7 @@ const facts = [
 const factButton = document.querySelector("#fact-button");
 const factOutput = document.querySelector("#fact-output");
 const todayDate = document.querySelector("#today-date");
+let lastFactIndex = -1;
 
 function showTodayDate() {
     const today = new Date();
@@ -20,7 +21,13 @@ function showTodayDate() {
 }
 
 function showRandomFact() {
-    const randomIndex = Math.floor(Math.random() * facts.length);
+    let randomIndex = Math.floor(Math.random() * facts.length);
+
+    while (randomIndex === lastFactIndex) {
+        randomIndex = Math.floor(Math.random() * facts.length);
+    }
+
+    lastFactIndex = randomIndex;
     factOutput.textContent = facts[randomIndex];
 }
 
