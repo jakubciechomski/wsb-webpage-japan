@@ -1,6 +1,6 @@
 # Japonia - projekt strony WWW
 
-Prosta strona o Japonii wykonana na zajecia.
+Prosta strona o Japonii.
 
 ## Uzyte technologie
 
@@ -20,15 +20,3 @@ Prosta strona o Japonii wykonana na zajecia.
 
 Strona ma prosty element dynamiczny w JavaScript.
 Po kliknieciu przycisku zmienia sie tekst ciekawostki.
-
-## Jak uruchomic
-
-Wystarczy otworzyc plik `index.html` w przegladarce.
-
-## Commity
-
-- `Add base HTML page structure`
-- `Add responsive CSS styling`
-- `Add JavaScript interactivity and README`
-- `Prevent repeated random facts`
-- `Simplify page for beginner project`
