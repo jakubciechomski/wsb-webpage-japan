@@ -1,4 +1,6 @@
-window.pokazCiekawostke = function () {
-    document.getElementById("tekst-ciekawostki").innerHTML =
-        "W Japonii wiosna popularne jest hanami, czyli ogladanie kwitnacych wisni.";
+window.pokazPowitanie = function () {
+    var imie = document.getElementById("imie").value;
+
+    document.getElementById("tekst-powitania").innerHTML =
+        "Czesc " + imie + "! Witaj na stronie o Japonii.";
 };

@@ -14,9 +14,9 @@ Prosta strona o Japonii.
 - tabela z najwazniejszymi danymi,
 - sekcja o kulturze,
 - znane miejsca,
-- prosty przycisk z ciekawostka.
+- prosty formularz z powitaniem.
 
 ## Element dynamiczny
 
 Strona ma prosty element dynamiczny w JavaScript.
-Po kliknieciu przycisku zmienia sie tekst ciekawostki.
+Po wpisaniu imienia i kliknieciu przycisku pojawia sie powitanie.
