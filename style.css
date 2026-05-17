@@ -1,5 +1,5 @@
 body {
-    background-color: #eeeeee;
+    background-color: #dce8f2;
     font-family: Arial;
     color: #222222;
 }
@@ -11,14 +11,14 @@ body {
 }
 
 header {
-    background-color: #bc002d;
+    background-color: #2f4f7f;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 nav {
-    background-color: #333333;
+    background-color: #1f2d3a;
     text-align: center;
     padding: 10px;
 }
@@ -43,7 +43,7 @@ h2 {
 
 img {
     width: 100%;
-    border: 1px solid #999999;
+    border: 1px solid #7a98ad;
 }
 
 table {
@@ -52,7 +52,7 @@ table {
 }
 
 th {
-    background-color: #f2d7d7;
+    background-color: #d9e8f5;
 }
 
 th,
@@ -62,21 +62,21 @@ td {
 }
 
 .miejsce {
-    background-color: #f1f1f1;
-    border: 1px solid #cccccc;
+    background-color: #f0f6fb;
+    border: 1px solid #b7cad8;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 button {
-    background-color: #bc002d;
+    background-color: #2f4f7f;
     color: white;
     padding: 10px;
     border: 0;
 }
 
 footer {
-    background-color: #333333;
+    background-color: #1f2d3a;
     color: white;
     text-align: center;
     padding: 10px;
