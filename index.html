@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Japonia - tradycja i nowoczesnosc</title>
+    <meta name="author" content="Jakub - projekt WSB">
+    <meta name="description" content="Prosta strona o Japonii wykonana w HTML, CSS i JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="topbar" aria-label="Glowne menu">
+            <a class="logo" href="#">Japonia</a>
+            <div class="nav-links">
+                <a href="#o-kraju">O kraju</a>
+                <a href="#kultura">Kultura</a>
+                <a href="#miejsca">Miejsca</a>
+                <a href="#ciekawostka">Ciekawostka</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">Projekt HTML, CSS i JavaScript</p>
+            <h1>Japonia - kraj tradycji i nowoczesnosci</h1>
+            <p>
+                Japonia lezy w Azji Wschodniej. Kojarzy sie z Tokio, gora Fuji,
+                kwitnacymi wisniami, szybka koleja i bardzo ciekawa kultura.
+            </p>
+            <a class="primary-link" href="#o-kraju">Zobacz strone</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="o-kraju">
+            <div class="section-heading">
+                <p class="eyebrow">Podstawowe informacje</p>
+                <h2>O kraju</h2>
+            </div>
+
+            <div class="info-grid">
+                <article class="info-card">
+                    <h3>Stolica</h3>
+                    <p>Tokio jest stolica Japonii i jednym z najwiekszych miast swiata.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Polozenie</h3>
+                    <p>Japonia sklada sie z wielu wysp na Oceanie Spokojnym.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Jezyk</h3>
+                    <p>Glownym jezykiem jest japonski, a waluta to jen japonski.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Symbol</h3>
+                    <p>Czerwone kolo na fladze oznacza slonce.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section split-section" id="kultura">
+            <div>
+                <p class="eyebrow">Tradycja</p>
+                <h2>Kultura Japonii</h2>
+                <p>
+                    W Japonii wazne sa szacunek, punktualnosc i dbalosc o szczegoly.
+                    Kraj laczy dawne zwyczaje, takie jak ceremonia herbaty, z nowoczesna
+                    technologia i szybkim tempem zycia w duzych miastach.
+                </p>
+                <ul class="simple-list">
+                    <li>kimono i tradycyjne festiwale,</li>
+                    <li>sushi, ramen i zielona herbata,</li>
+                    <li>manga, anime oraz gry komputerowe.</li>
+                </ul>
+            </div>
+            <figure class="photo-block">
+                <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=80" alt="Tradycyjna japonska ulica z lampionami">
+                <figcaption>Tradycyjna architektura i lampiony tworza charakterystyczny klimat Japonii.</figcaption>
+            </figure>
+        </section>
+
+        <section class="section" id="miejsca">
+            <div class="section-heading">
+                <p class="eyebrow">Zwiedzanie</p>
+                <h2>Popularne miejsca</h2>
+            </div>
+
+            <div class="place-grid">
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=700&q=80" alt="Ulica w Tokio noca">
+                    <div>
+                        <h3>Tokio</h3>
+                        <p>Nowoczesne miasto z wiezowcami, neonami i szybkim transportem.</p>
+                    </div>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=80" alt="Swiatynia w Kioto">
+                    <div>
+                        <h3>Kioto</h3>
+                        <p>Dawna stolica, znana ze swiatyn, ogrodow i spokojnej atmosfery.</p>
+                    </div>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=700&q=80" alt="Gora Fuji">
+                    <div>
+                        <h3>Gora Fuji</h3>
+                        <p>Najwyzszy szczyt Japonii i jeden z najbardziej znanych symboli kraju.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section dynamic-section" id="ciekawostka">
+            <div class="dynamic-panel">
+                <div>
+                    <p class="eyebrow">Element dynamiczny</p>
+                    <h2>Ciekawostka o Japonii</h2>
+                    <p class="small-text">Dzisiejsza data: <span id="today-date">ladowanie...</span></p>
+                </div>
+                <p id="fact-output" class="fact-output" aria-live="polite">
+                    Kliknij przycisk, aby wylosowac ciekawostke.
+                </p>
+                <button id="fact-button" type="button">Losuj ciekawostke</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Projekt edukacyjny o Japonii. Autor: Jakub.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
